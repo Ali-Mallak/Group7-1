@@ -21,12 +21,14 @@
 
       <form action="/action_page.php">
         <input type="text" placeholder="Search.." name="search" />
+        <!-- you should have written something in your button tag  -->
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
       <hr />
       <nav>
         <a href="login.html" border="2">login - sign up</a>
         <span>......</span>
+        <!-- if your link doesn't do anything just put a # inside its href -->
         <a href="">contact us</a>
         <span>......</span>
         <a href="#footer">info</a>
@@ -88,10 +90,12 @@
       <aside>
         <div>
           <p>did you enjoyed this website?</p>
+          <!-- you want to send some information to the server so you must put your inputs inside form tag -->
           <label for="yes">yes</label>
           <input type="radio" name="answer" value="yes" id="yes" />
           <label for="no">no</label>
-          <input type="radio" name="answer" value="no" id="no" id="no" />
+          <!-- you have used two ids inside your input -->
+          <input type="radio" name="answer" value="no" id="no"  />
           <p>which part you liked most?</p>
           <label for="article"> article </label>
           <input type="checkbox" name="article" value="article" id="article" />
@@ -113,6 +117,7 @@
       </aside>
 
       <section id="calender">
+        <!-- nice using iframe tag :) -->
         <iframe
           src="https://calendar.google.com/calendar/embed?src=kind7shark%40gmail.com&ctz=Asia%2FTehran"
           style="border: 0"
